@@ -9,11 +9,16 @@ How it works?
 
 Arguments: 
 
-  --t_ip: Target IP address.
+  --t_ip: Target IP address. 
+  
   --dns-server: DNS server to use (default: 8.8.8.8).
-  --qn: Domain name for DNS queries (default: xtb.com).
+  
+  --qn: Domain name for DNS queries (default: facebook.com).
+  
   --packets: Number of packets to send (default: 200).
+  
   --max-threads: Number of threads for concurrent attack (default: 2).
+  
   --timeout: Time between each packet send in seconds (default: 0).
 
 Example: 
